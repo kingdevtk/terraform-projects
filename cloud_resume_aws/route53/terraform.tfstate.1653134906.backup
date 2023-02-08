@@ -1,0 +1,404 @@
+{
+  "version": 4,
+  "terraform_version": "1.2.0",
+  "serial": 1,
+  "lineage": "c5882343-17e8-4f5c-e7d2-3f8f99ded6c3",
+  "outputs": {
+    "aws_route53_record_tfer--Z03412111SKDXP1DHG5AP__8f4a1e119107f5ad7115c5e171ab3d7d-002E-trinatking-002E-com-002E-_CNAME__id": {
+      "value": "Z03412111SKDXP1DHG5AP__8f4a1e119107f5ad7115c5e171ab3d7d.trinatking.com._CNAME_",
+      "type": "string"
+    },
+    "aws_route53_record_tfer--Z03412111SKDXP1DHG5AP__c095b7e078a549af6bb1e7a3e42cfb1e-002E-www-002E-trinatking-002E-com-002E-_CNAME__id": {
+      "value": "Z03412111SKDXP1DHG5AP__c095b7e078a549af6bb1e7a3e42cfb1e.www.trinatking.com._CNAME_",
+      "type": "string"
+    },
+    "aws_route53_record_tfer--Z03412111SKDXP1DHG5AP_trinatking-002E-com-002E-_A__id": {
+      "value": "Z03412111SKDXP1DHG5AP_trinatking.com._A_",
+      "type": "string"
+    },
+    "aws_route53_record_tfer--Z03412111SKDXP1DHG5AP_trinatking-002E-com-002E-_NS__id": {
+      "value": "Z03412111SKDXP1DHG5AP_trinatking.com._NS_",
+      "type": "string"
+    },
+    "aws_route53_record_tfer--Z03412111SKDXP1DHG5AP_trinatking-002E-com-002E-_SOA__id": {
+      "value": "Z03412111SKDXP1DHG5AP_trinatking.com._SOA_",
+      "type": "string"
+    },
+    "aws_route53_record_tfer--Z03412111SKDXP1DHG5AP_www-002E-trinatking-002E-com-002E-_A__id": {
+      "value": "Z03412111SKDXP1DHG5AP_www.trinatking.com._A_",
+      "type": "string"
+    },
+    "aws_route53_record_tfer--Z064000611SQH1FUMQRAZ_ablackladytechshow-002E-com-002E-_NS__id": {
+      "value": "Z064000611SQH1FUMQRAZ_ablackladytechshow.com._NS_",
+      "type": "string"
+    },
+    "aws_route53_record_tfer--Z064000611SQH1FUMQRAZ_ablackladytechshow-002E-com-002E-_SOA__id": {
+      "value": "Z064000611SQH1FUMQRAZ_ablackladytechshow.com._SOA_",
+      "type": "string"
+    },
+    "aws_route53_record_tfer--Z067254110X861QJ0ZUWL_ablackladytechblog-002E-com-002E-_NS__id": {
+      "value": "Z067254110X861QJ0ZUWL_ablackladytechblog.com._NS_",
+      "type": "string"
+    },
+    "aws_route53_record_tfer--Z067254110X861QJ0ZUWL_ablackladytechblog-002E-com-002E-_SOA__id": {
+      "value": "Z067254110X861QJ0ZUWL_ablackladytechblog.com._SOA_",
+      "type": "string"
+    },
+    "aws_route53_zone_tfer--Z03412111SKDXP1DHG5AP_trinatking-002E-com_id": {
+      "value": "Z03412111SKDXP1DHG5AP",
+      "type": "string"
+    },
+    "aws_route53_zone_tfer--Z064000611SQH1FUMQRAZ_ablackladytechshow-002E-com_id": {
+      "value": "Z064000611SQH1FUMQRAZ",
+      "type": "string"
+    },
+    "aws_route53_zone_tfer--Z067254110X861QJ0ZUWL_ablackladytechblog-002E-com_id": {
+      "value": "Z067254110X861QJ0ZUWL",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_route53_record",
+      "name": "tfer--Z03412111SKDXP1DHG5AP__8f4a1e119107f5ad7115c5e171ab3d7d-002E-trinatking-002E-com-002E-_CNAME_",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes_flat": {
+            "fqdn": "_8f4a1e119107f5ad7115c5e171ab3d7d.trinatking.com",
+            "health_check_id": "",
+            "id": "Z03412111SKDXP1DHG5AP__8f4a1e119107f5ad7115c5e171ab3d7d.trinatking.com._CNAME_",
+            "name": "_8f4a1e119107f5ad7115c5e171ab3d7d.trinatking.com",
+            "records.#": "1",
+            "records.0": "_f0054f6ff976a56aeb7fb822d15bfa6a.yqdvztwmqr.acm-validations.aws.",
+            "set_identifier": "",
+            "ttl": "300",
+            "type": "CNAME",
+            "zone_id": "Z03412111SKDXP1DHG5AP"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_record",
+      "name": "tfer--Z03412111SKDXP1DHG5AP__c095b7e078a549af6bb1e7a3e42cfb1e-002E-www-002E-trinatking-002E-com-002E-_CNAME_",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes_flat": {
+            "fqdn": "_c095b7e078a549af6bb1e7a3e42cfb1e.www.trinatking.com",
+            "health_check_id": "",
+            "id": "Z03412111SKDXP1DHG5AP__c095b7e078a549af6bb1e7a3e42cfb1e.www.trinatking.com._CNAME_",
+            "name": "_c095b7e078a549af6bb1e7a3e42cfb1e.www.trinatking.com",
+            "records.#": "1",
+            "records.0": "_51627e9325d0c36c5dbd8ea50bfa5bbc.yqdvztwmqr.acm-validations.aws.",
+            "set_identifier": "",
+            "ttl": "300",
+            "type": "CNAME",
+            "zone_id": "Z03412111SKDXP1DHG5AP"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_record",
+      "name": "tfer--Z03412111SKDXP1DHG5AP_trinatking-002E-com-002E-_A_",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes_flat": {
+            "alias.#": "1",
+            "alias.0.evaluate_target_health": "false",
+            "alias.0.name": "d1o75q5exq6z0v.cloudfront.net",
+            "alias.0.zone_id": "Z2FDTNDATAQYW2",
+            "fqdn": "trinatking.com",
+            "health_check_id": "",
+            "id": "Z03412111SKDXP1DHG5AP_trinatking.com._A_",
+            "name": "trinatking.com",
+            "records.#": "0",
+            "set_identifier": "",
+            "ttl": "0",
+            "type": "A",
+            "zone_id": "Z03412111SKDXP1DHG5AP"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_record",
+      "name": "tfer--Z03412111SKDXP1DHG5AP_trinatking-002E-com-002E-_NS_",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes_flat": {
+            "fqdn": "trinatking.com",
+            "health_check_id": "",
+            "id": "Z03412111SKDXP1DHG5AP_trinatking.com._NS_",
+            "name": "trinatking.com",
+            "records.#": "4",
+            "records.0": "ns-1344.awsdns-40.org.",
+            "records.1": "ns-1786.awsdns-31.co.uk.",
+            "records.2": "ns-409.awsdns-51.com.",
+            "records.3": "ns-588.awsdns-09.net.",
+            "set_identifier": "",
+            "ttl": "172800",
+            "type": "NS",
+            "zone_id": "Z03412111SKDXP1DHG5AP"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_record",
+      "name": "tfer--Z03412111SKDXP1DHG5AP_trinatking-002E-com-002E-_SOA_",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes_flat": {
+            "fqdn": "trinatking.com",
+            "health_check_id": "",
+            "id": "Z03412111SKDXP1DHG5AP_trinatking.com._SOA_",
+            "name": "trinatking.com",
+            "records.#": "1",
+            "records.0": "ns-409.awsdns-51.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400",
+            "set_identifier": "",
+            "ttl": "900",
+            "type": "SOA",
+            "zone_id": "Z03412111SKDXP1DHG5AP"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_record",
+      "name": "tfer--Z03412111SKDXP1DHG5AP_www-002E-trinatking-002E-com-002E-_A_",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes_flat": {
+            "alias.#": "1",
+            "alias.0.evaluate_target_health": "false",
+            "alias.0.name": "d1o75q5exq6z0v.cloudfront.net",
+            "alias.0.zone_id": "Z2FDTNDATAQYW2",
+            "fqdn": "www.trinatking.com",
+            "health_check_id": "",
+            "id": "Z03412111SKDXP1DHG5AP_www.trinatking.com._A_",
+            "name": "www.trinatking.com",
+            "records.#": "0",
+            "set_identifier": "",
+            "ttl": "0",
+            "type": "A",
+            "zone_id": "Z03412111SKDXP1DHG5AP"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_record",
+      "name": "tfer--Z064000611SQH1FUMQRAZ_ablackladytechshow-002E-com-002E-_NS_",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes_flat": {
+            "fqdn": "ablackladytechshow.com",
+            "health_check_id": "",
+            "id": "Z064000611SQH1FUMQRAZ_ablackladytechshow.com._NS_",
+            "name": "ablackladytechshow.com",
+            "records.#": "4",
+            "records.0": "ns-1194.awsdns-21.org.",
+            "records.1": "ns-1700.awsdns-20.co.uk.",
+            "records.2": "ns-454.awsdns-56.com.",
+            "records.3": "ns-607.awsdns-11.net.",
+            "set_identifier": "",
+            "ttl": "172800",
+            "type": "NS",
+            "zone_id": "Z064000611SQH1FUMQRAZ"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_record",
+      "name": "tfer--Z064000611SQH1FUMQRAZ_ablackladytechshow-002E-com-002E-_SOA_",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes_flat": {
+            "fqdn": "ablackladytechshow.com",
+            "health_check_id": "",
+            "id": "Z064000611SQH1FUMQRAZ_ablackladytechshow.com._SOA_",
+            "name": "ablackladytechshow.com",
+            "records.#": "1",
+            "records.0": "ns-607.awsdns-11.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400",
+            "set_identifier": "",
+            "ttl": "900",
+            "type": "SOA",
+            "zone_id": "Z064000611SQH1FUMQRAZ"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_record",
+      "name": "tfer--Z067254110X861QJ0ZUWL_ablackladytechblog-002E-com-002E-_NS_",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes_flat": {
+            "fqdn": "ablackladytechblog.com",
+            "health_check_id": "",
+            "id": "Z067254110X861QJ0ZUWL_ablackladytechblog.com._NS_",
+            "name": "ablackladytechblog.com",
+            "records.#": "4",
+            "records.0": "ns-1315.awsdns-36.org.",
+            "records.1": "ns-2025.awsdns-61.co.uk.",
+            "records.2": "ns-3.awsdns-00.com.",
+            "records.3": "ns-752.awsdns-30.net.",
+            "set_identifier": "",
+            "ttl": "172800",
+            "type": "NS",
+            "zone_id": "Z067254110X861QJ0ZUWL"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_record",
+      "name": "tfer--Z067254110X861QJ0ZUWL_ablackladytechblog-002E-com-002E-_SOA_",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes_flat": {
+            "fqdn": "ablackladytechblog.com",
+            "health_check_id": "",
+            "id": "Z067254110X861QJ0ZUWL_ablackladytechblog.com._SOA_",
+            "name": "ablackladytechblog.com",
+            "records.#": "1",
+            "records.0": "ns-3.awsdns-00.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400",
+            "set_identifier": "",
+            "ttl": "900",
+            "type": "SOA",
+            "zone_id": "Z067254110X861QJ0ZUWL"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_zone",
+      "name": "tfer--Z03412111SKDXP1DHG5AP_trinatking-002E-com",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "arn": "arn:aws:route53:::hostedzone/Z03412111SKDXP1DHG5AP",
+            "comment": "HostedZone created by Route53 Registrar",
+            "delegation_set_id": "",
+            "force_destroy": "false",
+            "id": "Z03412111SKDXP1DHG5AP",
+            "name": "trinatking.com",
+            "name_servers.#": "4",
+            "name_servers.0": "ns-1344.awsdns-40.org",
+            "name_servers.1": "ns-1786.awsdns-31.co.uk",
+            "name_servers.2": "ns-409.awsdns-51.com",
+            "name_servers.3": "ns-588.awsdns-09.net",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "vpc.#": "0",
+            "zone_id": "Z03412111SKDXP1DHG5AP"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_zone",
+      "name": "tfer--Z064000611SQH1FUMQRAZ_ablackladytechshow-002E-com",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "arn": "arn:aws:route53:::hostedzone/Z064000611SQH1FUMQRAZ",
+            "comment": "HostedZone created by Route53 Registrar",
+            "delegation_set_id": "",
+            "force_destroy": "false",
+            "id": "Z064000611SQH1FUMQRAZ",
+            "name": "ablackladytechshow.com",
+            "name_servers.#": "4",
+            "name_servers.0": "ns-1194.awsdns-21.org",
+            "name_servers.1": "ns-1700.awsdns-20.co.uk",
+            "name_servers.2": "ns-454.awsdns-56.com",
+            "name_servers.3": "ns-607.awsdns-11.net",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "vpc.#": "0",
+            "zone_id": "Z064000611SQH1FUMQRAZ"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_zone",
+      "name": "tfer--Z067254110X861QJ0ZUWL_ablackladytechblog-002E-com",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "arn": "arn:aws:route53:::hostedzone/Z067254110X861QJ0ZUWL",
+            "comment": "HostedZone created by Route53 Registrar",
+            "delegation_set_id": "",
+            "force_destroy": "false",
+            "id": "Z067254110X861QJ0ZUWL",
+            "name": "ablackladytechblog.com",
+            "name_servers.#": "4",
+            "name_servers.0": "ns-1315.awsdns-36.org",
+            "name_servers.1": "ns-2025.awsdns-61.co.uk",
+            "name_servers.2": "ns-3.awsdns-00.com",
+            "name_servers.3": "ns-752.awsdns-30.net",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "vpc.#": "0",
+            "zone_id": "Z067254110X861QJ0ZUWL"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ]
+}
