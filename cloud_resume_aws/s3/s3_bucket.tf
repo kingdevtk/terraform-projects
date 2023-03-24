@@ -41,62 +41,6 @@ POLICY
     index_document = "index.html"
   }
 }
-
-resource "aws_s3_bucket" "tfer--codepipeline-us-east-1-523599582413" {
-  arn           = "arn:aws:s3:::codepipeline-us-east-1-523599582413"
-  bucket        = "codepipeline-us-east-1-523599582413"
-  force_destroy = "false"
-
-  grant {
-    id          = "2d1a4075a347cdb41a154eb6a2d4debe3b805b4711bb475f6d45f676ccae70f8"
-    permissions = ["FULL_CONTROL"]
-    type        = "CanonicalUser"
-  }
-
-  hosted_zone_id      = "Z3AQBSTGFYJSTF"
-  object_lock_enabled = "false"
-
-  policy = <<POLICY
-{
-  "Id": "SSEAndSSLPolicy",
-  "Statement": [
-    {
-      "Action": "s3:PutObject",
-      "Condition": {
-        "StringNotEquals": {
-          "s3:x-amz-server-side-encryption": "aws:kms"
-        }
-      },
-      "Effect": "Deny",
-      "Principal": "*",
-      "Resource": "arn:aws:s3:::codepipeline-us-east-1-523599582413/*",
-      "Sid": "DenyUnEncryptedObjectUploads"
-    },
-    {
-      "Action": "s3:*",
-      "Condition": {
-        "Bool": {
-          "aws:SecureTransport": "false"
-        }
-      },
-      "Effect": "Deny",
-      "Principal": "*",
-      "Resource": "arn:aws:s3:::codepipeline-us-east-1-523599582413/*",
-      "Sid": "DenyInsecureConnections"
-    }
-  ],
-  "Version": "2012-10-17"
-}
-POLICY
-
-  request_payer = "BucketOwner"
-
-  versioning {
-    enabled    = "false"
-    mfa_delete = "false"
-  }
-}
-
 resource "aws_s3_bucket" "tfer--trinatking-002E-com" {
   arn           = "arn:aws:s3:::trinatking.com"
   bucket        = "trinatking.com"
