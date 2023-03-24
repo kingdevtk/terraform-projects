@@ -176,3 +176,11 @@ POLICY
     redirect_all_requests_to = "http://trinatking.com"
   }
 }
+
+resource "aws_s3_bucket" "tf_state_files" {
+  bucket = "trinatking-tf-state"
+}
+
+resource "aws_s3_bucket_policy" "trinatking_tf_state_policy" {
+  bucket = aws_s3_bucket.tf_state_files.id
+}
