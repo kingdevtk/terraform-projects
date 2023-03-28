@@ -15,8 +15,8 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "trinatking-tf-state"
-    key    = "trinatking-tf-state/s3/terraform.tfstate"
+    bucket = "abltechblog-tf-state"
+    key    = "abltechblog-tf-state/s3/terraform.tfstate"
     region = "us-east-1"
   }
 }
